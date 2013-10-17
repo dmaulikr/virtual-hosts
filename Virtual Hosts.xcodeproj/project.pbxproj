@@ -27,7 +27,7 @@
 		4D8F918415EBF39F00E4F0C2 /* Linen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F918115EBF39F00E4F0C2 /* Linen.png */; };
 		4D8F918515EBF39F00E4F0C2 /* WebTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F918215EBF39F00E4F0C2 /* WebTemplate.png */; };
 		4D8F918615EBF39F00E4F0C2 /* WebTemplate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F918315EBF39F00E4F0C2 /* WebTemplate@2x.png */; };
-		4D8F918A15EBF3C800E4F0C2 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F918915EBF3C800E4F0C2 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D877C23D1810611A00F02399 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D877C23C1810611A00F02399 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,8 +68,8 @@
 		4D8F918215EBF39F00E4F0C2 /* WebTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WebTemplate.png; sourceTree = "<group>"; };
 		4D8F918315EBF39F00E4F0C2 /* WebTemplate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WebTemplate@2x.png"; sourceTree = "<group>"; };
 		4D8F918715EBF3BC00E4F0C2 /* CodaPlugInsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodaPlugInsController.h; path = ../../CodaPlugInsController.h; sourceTree = "<group>"; };
-		4D8F918815EBF3C800E4F0C2 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "../../3rd-party Libraries/RegexKitLite-4.0/RegexKitLite.h"; sourceTree = "<group>"; };
-		4D8F918915EBF3C800E4F0C2 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = "../../3rd-party Libraries/RegexKitLite-4.0/RegexKitLite.m"; sourceTree = "<group>"; };
+		D877C23B1810611A00F02399 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "../../RegexKitLite-4.0/RegexKitLite.h"; sourceTree = "<group>"; };
+		D877C23C1810611A00F02399 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = "../../RegexKitLite-4.0/RegexKitLite.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +162,8 @@
 				4D8F916F15EBF38E00E4F0C2 /* JDTableView.m */,
 				4D8F917015EBF38E00E4F0C2 /* OnOffValueTransormer.h */,
 				4D8F917115EBF38E00E4F0C2 /* OnOffValueTransormer.m */,
-				4D8F918815EBF3C800E4F0C2 /* RegexKitLite.h */,
-				4D8F918915EBF3C800E4F0C2 /* RegexKitLite.m */,
+				D877C23B1810611A00F02399 /* RegexKitLite.h */,
+				D877C23C1810611A00F02399 /* RegexKitLite.m */,
 				4D8F917215EBF38E00E4F0C2 /* SourceListCountToBoolean.h */,
 				4D8F917315EBF38E00E4F0C2 /* SourceListCountToBoolean.m */,
 				4D8F917415EBF38E00E4F0C2 /* VirtualHost.h */,
@@ -261,11 +261,11 @@
 				4D8F917815EBF38E00E4F0C2 /* JDFormView.m in Sources */,
 				4D8F917915EBF38E00E4F0C2 /* JDHyperlinkButton.m in Sources */,
 				4D8F917A15EBF38E00E4F0C2 /* JDLinenView.m in Sources */,
+				D877C23D1810611A00F02399 /* RegexKitLite.m in Sources */,
 				4D8F917B15EBF38E00E4F0C2 /* JDTableView.m in Sources */,
 				4D8F917C15EBF38E00E4F0C2 /* OnOffValueTransormer.m in Sources */,
 				4D8F917D15EBF38E00E4F0C2 /* SourceListCountToBoolean.m in Sources */,
 				4D8F917E15EBF38E00E4F0C2 /* VirtualHost.m in Sources */,
-				4D8F918A15EBF3C800E4F0C2 /* RegexKitLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

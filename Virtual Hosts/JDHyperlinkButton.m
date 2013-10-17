@@ -21,9 +21,4 @@
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[self url]]];
 }
 
-//- (void)resetCursorRects
-//{
-//    [self addCursorRect:[self bounds] cursor:[NSCursor pointingHandCursor]];
-//}
-
 @end
